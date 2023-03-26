@@ -1,0 +1,464 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+body {
+    font-family: 'Lato', sans-serif
+}
+
+header {
+    max-width: 1300px;
+    margin: 0 auto
+}
+
+.rb-bg {
+    right: 44px !important;
+    top: -83px;
+    width: auto;
+    height: 1431px
+}
+
+.aeroplane {
+    width: 565px;
+    top: 0
+}
+
+.left-bg1 {
+    width: 728px;
+    top: 0;
+    left: 0
+}
+
+a#profileDropdown > span {
+    font-weight: 700;
+    color: #000
+}
+
+.text-bg-span > img {
+    margin-top: -30px;
+    width: 300px !important;
+    max-width: none;
+    margin-left: -136px
+}
+
+.yellow-bg {
+    background: #f1a501
+}
+
+.dropshaddow {
+    box-shadow: 0 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px
+}
+
+.dark-orange-text {
+    color: #df6951;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.gray-light-bg {
+    background: #d9d9d9;
+    border-radius: 8px;
+    padding-top: 43px;
+    color: #fff;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+    line-height: 1.3
+}
+
+.card-img-spacer {
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;
+    z-index: 1;
+    margin-bottom: -35px;
+    opacity: .7;
+    transition: all .3s ease-in-out
+}
+
+.card-name {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 180px;
+    transform: translate(-50%, 0);
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px
+}
+
+.gray-light-bg ul {
+    max-height: 132px;
+    overflow: hidden
+}
+
+.gray-light-bg ul > li {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-top: 10px
+}
+
+.gray-light-bg ul > li > img {
+    margin-right: 10px;
+    float: left
+}
+
+.card-hover-effect:hover .card-img-spacer {
+    background: #000;
+    width: 100%;
+    opacity: 1;
+    margin-bottom: -60px
+}
+
+.card-hover-effect:hover .gray-light-bg {
+    background: rgba(0, 0, 0, .8);
+    padding-top: 50px;
+    line-height: 1.1
+}
+
+.travel-partner-card {
+    overflow: hidden;
+    margin-bottom: 30px
+}
+
+.travel-partner-card > img {
+    border-radius: 8px
+}
+
+.travel-partner-card > ul {
+    transition: all .3s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    background: hsla(276, 98%, 61%, 0.2);
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3em;
+    color: rgba(255, 255, 255, .4);
+    line-height: 2;
+    font-size: 18px
+}
+
+.travel-partner-card:hover > ul {
+    background: rgba(241, 165, 1, .5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff
+}
+
+.traveler-name {
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+    padding: 5px 35px
+}
+
+.travel-partner-card:hover .traveler-name {
+    background: rgba(241, 165, 1, 1)
+}
+
+.bgn-home-source {
+    width: 296px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+}
+.h1_text1{
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    /* or 100% */
+    
+    
+    /* 1st */
+    
+    color: #181E4B;
+}
+.text_2{
+    font-family: 'Poppins';
+font-style: normal;
+font:bold;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #DF6951;
+}
+.fs-1{
+    font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+/* 3rd */
+
+color: #14183E;
+}
+.cd_1{
+    transform: scale(1.2);
+}
+
+.play-store {
+    border-radius: 17.5px;
+    width: 107px
+}
+
+.sociology img {
+    width: 41px;
+    height: 42px
+}
+
+.sociology .col-xs-4 {
+    width: 33.33%;
+    margin-bottom: 30px
+}
+
+.text-right {
+    text-align: right
+}
+
+.home-shk img {
+    max-width: 130px
+}
+
+.footer-bg {
+    background: url('../images/footer.svg') 110% 100% no-repeat;
+	padding-bottom:50px;
+}
+
+.lang-ul {
+    background: #fff;
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-size: 13px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.lang-ul > li {
+    cursor: pointer;
+}
+
+.subscribe-bg {
+    background: url('../images/subscribe.svg') 0 0 / 100% no-repeat;
+    height: 378px;
+    border-radius: 120px 30px 30px 30px;
+}
+
+.subscribe-bg h1 {
+    color: #5E6282;
+    font-size: 30px;
+    text-align: center;
+    padding: 100px 100px 30px 100px;
+}
+
+.subscribe-form {
+    background: url('../images/subscribe-form.svg') 0 3px no-repeat;
+    width: 580px;
+    height: 62px;
+    margin: 0 auto;
+    padding-left: 35px;
+}
+
+.subscribe-email {
+    margin: -23px 0 0 10px;
+    height: 59px;
+    width: 324px;
+    border: 0;
+    background: transparent;
+    padding-left: 30px;
+    outline: 0;
+}
+
+.subscribe-email::placeholder {
+    color: #D2D2D4;
+    opacity: 1;
+}
+
+.subscribe-btn {
+    outline: 0;
+    height: 67px;
+    background: transparent;
+    border: 0;
+    text-align: center;
+    color: #fff;
+    width: 168px;
+}
+
+.card_98{
+    width: 314px;
+height: 457px;
+}
+
+.cb_11{
+    
+}
+
+.card-title_111{
+color: #5E6282;
+}
+
+.card:hover{
+    transform: scale(1.15);
+    
+}
+
+.women_img1{
+    width: 60px;
+    height: 63.43px;
+    
+    }
+    .women_img2{
+        width: 60px;
+    height: 63.43px;
+    }
+    .women_img3{
+        width: 60px;
+    height: 63.43px;
+    }
+    .women_text_h1 {
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124.5%;
+    }
+    
+    .women_text_h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 124.5%;
+    }
+    .women_text_h3{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 124.5%;
+    }
+    
+    .women_text_p1{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.5%;
+    }
+    
+    .btn{
+        background-color:#F1A501;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 30px;
+        transition: transform .4s; 
+    }
+    .btn:hover{
+        transform: scale(1.2);
+    }
+    .btn1{
+        background-color:black;
+        opacity:.2;
+     
+    }
+    
+    .fb_1:hover{
+        transform: scale(1.2);
+        border: 2px solid transparent;
+    }
+    .inst_1:hover{
+        transform: scale(1.2);
+        border: 2px solid transparent;
+    }
+    .twi_1:hover{
+    transform: scale(1.2);
+        border: 2px solid transparent;
+    }
+    .img_44:hover{
+        transform: scale(1.1);
+    }
+    /* .src_1{
+        position: absolute;
+    } */
+
+@media all and (max-width: 1600px) {
+    .rb-bg {
+        height: 1266px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .main-links {
+        position: absolute;
+        top: 84px;
+        width: 100%
+    }
+
+    .main-links .navbar-nav {
+        display: table-row
+    }
+
+    .main-links .nav-item {
+        display: table-cell;
+        padding-right: 15px
+    }
+}
